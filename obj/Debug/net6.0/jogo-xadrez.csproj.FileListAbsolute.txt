@@ -1,0 +1,15 @@
+C:\Users\SMN\Desktop\POO\jogo-xadrez\bin\Debug\net6.0\jogo-xadrez.exe
+C:\Users\SMN\Desktop\POO\jogo-xadrez\bin\Debug\net6.0\jogo-xadrez.deps.json
+C:\Users\SMN\Desktop\POO\jogo-xadrez\bin\Debug\net6.0\jogo-xadrez.runtimeconfig.json
+C:\Users\SMN\Desktop\POO\jogo-xadrez\bin\Debug\net6.0\jogo-xadrez.dll
+C:\Users\SMN\Desktop\POO\jogo-xadrez\bin\Debug\net6.0\jogo-xadrez.pdb
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.csproj.AssemblyReference.cache
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.AssemblyInfoInputs.cache
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.AssemblyInfo.cs
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.csproj.CoreCompileInputs.cache
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.dll
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\refint\jogo-xadrez.dll
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.pdb
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\jogo-xadrez.genruntimeconfig.cache
+C:\Users\SMN\Desktop\POO\jogo-xadrez\obj\Debug\net6.0\ref\jogo-xadrez.dll
