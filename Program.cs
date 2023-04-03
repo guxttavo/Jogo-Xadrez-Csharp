@@ -1,13 +1,21 @@
 ﻿using jogo_xadrez.Tabuleiro;
+using xadrez;
 
-class Program
+namespace xadrez_console
 {
-  static void Main(string[] args)
+  class Program
   {
-    Tabuleiro tab = new Tabuleiro(8, 8);
+    static void Main(string[] args)
+    {
+      Tabuleiro tab = new Tabuleiro(8, 8);
 
-    Tela.imprimirTabuleiro(tab);
+      tab.colocarPeca(new Torre(tab, Cor.Preto), new Posicao(0, 0));
+      tab.colocarPeca(new Torre(tab, Cor.Preto), new Posicao(1, 3));
+      tab.colocarPeca(new Rei(tab, Cor.Preto), new Posicao(2, 4));
 
-    Console.ReadLine();
+      Tela.imprimirTabuleiro(tab);
+
+      Console.ReadLine();
+    }
   }
 }

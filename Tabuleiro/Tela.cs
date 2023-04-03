@@ -10,7 +10,11 @@ namespace jogo_xadrez.Tabuleiro
         {
           if (tab.peca(i, j) == null)
           {
-            Console.Write(tab.peca(i, j) + " - ");
+            Console.Write("- ");
+          }
+          else
+          {
+            Console.Write(tab.peca(i, j) + " ");
           }
         }
         System.Console.WriteLine();
