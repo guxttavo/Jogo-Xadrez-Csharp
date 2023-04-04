@@ -24,7 +24,11 @@ namespace jogo_xadrez.Tabuleiro
     {
       return pecas[linha, coluna];
     }
-    public Peca peca(Posicao pos) { return pecas[pos.linha, pos.coluna]; }
+
+    public Peca peca(Posicao pos)
+    {
+      return pecas[pos.linha, pos.coluna];
+    }
     /*
       Colocar uma peça P na posição pos, é ir na matriz de peças na posição
       pos.linha e pos.coluna e irá receber a peça P
