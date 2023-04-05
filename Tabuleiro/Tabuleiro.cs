@@ -43,8 +43,19 @@ namespace jogo_xadrez.Tabuleiro
       p.posicao = pos;
     }
 
-    //Validacoes:
+    public Peca retirarPeca(Posicao pos)
+    {
+      if (peca(pos) == null)
+      {
+        return null;
+      }
+      Peca aux = peca(pos);
+      aux.posicao = null;
+      pecas[pos.linha, pos.coluna] = null;
+      return aux;
+    }
 
+    //Validacoes:
     public bool existePeca(Posicao pos)
     {
       validarPosicao(pos);

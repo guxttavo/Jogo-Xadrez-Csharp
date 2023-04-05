@@ -1,3 +1,5 @@
+using Xadrez;
+
 namespace jogo_xadrez.Tabuleiro
 {
   public class Tela
@@ -15,12 +17,37 @@ namespace jogo_xadrez.Tabuleiro
           }
           else
           {
-            Console.Write(tab.peca(i, j) + " ");
+            Tela.imprimirPeca(tab.peca(i, j));
+            Console.Write(" ");
           }
         }
         Console.WriteLine();
       }
       System.Console.WriteLine("  a b c d e f g h");
+    }
+
+    public static PosicaoXadrez lerPosicaoXadrez()
+    {
+      string s = Console.ReadLine();
+      char coluna = s[0];
+      int linha = int.Parse(s[1] + "");
+      return new PosicaoXadrez(coluna, linha);
+    }
+
+    public static void imprimirPeca(Peca peca)
+    {
+      if (peca.cor == Cor.Branca)
+      {
+        System.Console.Write(peca);
+      }
+      else
+      {
+        //salvando a cor atual(cinza)
+        ConsoleColor aux = Console.ForegroundColor;
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        System.Console.Write(peca);
+        Console.ForegroundColor = aux;
+      }
     }
   }
 }

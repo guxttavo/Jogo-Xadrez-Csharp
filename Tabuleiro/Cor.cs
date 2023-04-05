@@ -3,7 +3,7 @@ namespace jogo_xadrez.Tabuleiro
   public enum Cor
   {
     Branca,
-    Preto,
+    Preta,
     Amarela,
     Azul,
     Vermelha,

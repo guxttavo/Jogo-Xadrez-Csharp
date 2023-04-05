@@ -17,5 +17,10 @@ namespace jogo_xadrez.Tabuleiro
       this.qtdMovimentos = 0;
     }
 
+    public void incrementarQtdMovimento()
+    {
+      qtdMovimentos++;
+    }
+
   }
 }
