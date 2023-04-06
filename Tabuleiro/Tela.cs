@@ -30,6 +30,7 @@ namespace jogo_xadrez.Tabuleiro
     {
       string s = Console.ReadLine();
       char coluna = s[0];
+      //converte um caractere em uma string vazia
       int linha = int.Parse(s[1] + "");
       return new PosicaoXadrez(coluna, linha);
     }

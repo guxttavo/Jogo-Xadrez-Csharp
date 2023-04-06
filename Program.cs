@@ -14,7 +14,7 @@ namespace xadrez_console
         while (!partida.terminada)
         {
           Console.Clear();
-          Tela.imprimirTabuleiro(partida.tab);
+          Tela.imprimirTabuleiro(partida.tabuleiro);
 
           System.Console.Write("Origem: ");
           Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
@@ -25,7 +25,7 @@ namespace xadrez_console
           partida.executaMovimento(origem, destino);
         }
 
-        Tela.imprimirTabuleiro(partida.tab);
+        Tela.imprimirTabuleiro(partida.tabuleiro);
       }
       catch (TabuleiroException e)
       {
