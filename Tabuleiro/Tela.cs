@@ -4,20 +4,20 @@ namespace jogo_xadrez.Tabuleiro
 {
   public class Tela
   {
-    public static void imprimirTabuleiro(Tabuleiro tab)
+    public static void imprimirTabuleiro(Tabuleiro tabuleiro)
     {
-      for (int i = 0; i < tab.linhas; i++)
+      for (int i = 0; i < tabuleiro.linhas; i++)
       {
         Console.Write(8 - i + " ");
-        for (int j = 0; j < tab.colunas; j++)
+        for (int j = 0; j < tabuleiro.colunas; j++)
         {
-          if (tab.peca(i, j) == null)
+          if (tabuleiro.peca(i, j) == null)
           {
             Console.Write("- ");
           }
           else
           {
-            Tela.imprimirPeca(tab.peca(i, j));
+            Tela.imprimirPeca(tabuleiro.peca(i, j));
             Console.Write(" ");
           }
         }

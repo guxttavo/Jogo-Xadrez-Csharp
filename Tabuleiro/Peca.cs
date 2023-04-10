@@ -1,6 +1,6 @@
 namespace jogo_xadrez.Tabuleiro
 {
-  public class Peca
+  public abstract class Peca
   {
     //Uma peça está em alguma posição
     public Posicao posicao { get; set; }
@@ -8,14 +8,16 @@ namespace jogo_xadrez.Tabuleiro
     //por ela mesma ou por suas subclasses
     public Cor cor { get; protected set; }
     public int qtdMovimentos { get; protected set; }
-    public Tabuleiro tab { get; protected set; }
-    public Peca(Tabuleiro tab, Cor cor)
+    public Tabuleiro tabuleiro { get; protected set; }
+    public Peca(Tabuleiro tabuleiro, Cor cor)
     {
       this.posicao = null;
-      this.tab = tab;
+      this.tabuleiro = tabuleiro;
       this.cor = cor;
       this.qtdMovimentos = 0;
     }
+
+    public abstract bool[,] movimentosPossiveis();
 
     public void incrementarQtdMovimento()
     {
